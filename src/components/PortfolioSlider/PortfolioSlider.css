@@ -1,0 +1,249 @@
+.slick-dots {
+  bottom: -48px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-family: 'slick';
+  font-size: 70px;
+  line-height: 1;
+  opacity: 0.75;
+  color: transparent;
+  background-repeat: no-repeat;
+  transition: all linear 0.3s;
+}
+
+.slick-prev:before {
+  background-image: url('../../images/portfolioSlider/slider_prev.svg');
+}
+
+.slick-next:before {
+  background-image: url('../../images/portfolioSlider/slider_next.svg');
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  opacity: 0.6;
+}
+
+
+/*character*/
+
+.character {
+  width: 291px;
+  height: 291px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.character_first {
+  background-image: url(../../images/portfolioSlider/characters/first.png);
+}
+
+.character_second {
+  background-image: url(../../images/portfolioSlider/characters/second.png);
+}
+
+.character_third {
+  background-image: url(../../images/portfolioSlider/characters/third.png);
+}
+
+.character_fourth {
+  background-image: url(../../images/portfolioSlider/characters/fourth.png);
+}
+
+.character_fifth {
+  background-image: url(../../images/portfolioSlider/characters/fifth.png);
+}
+
+.character_sixth {
+  background-image: url(../../images/portfolioSlider/characters/sixth.png);
+}
+
+/* brand */
+
+.brand {
+  width: 291px;
+  height: 291px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.brand_first {
+  background-image: url(../../images/portfolioSlider/brand/first.png);
+}
+
+.brand_second {
+  background-image: url(../../images/portfolioSlider/brand/second.png);
+}
+
+.brand_third {
+  background-image: url(../../images/portfolioSlider/brand/third.png);
+}
+
+.brand_fourth {
+  background-image: url(../../images/portfolioSlider/brand/fourth.png);
+}
+
+/*bookcover*/
+
+.bookcover {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 258px;
+  height: 367px;
+}
+
+.bookcover_first {
+  background-image: url(../../images/portfolioSlider/bookcover/first.png);
+}
+
+.bookcover_second {
+  background-image: url(../../images/portfolioSlider/bookcover/second.png);
+}
+
+.bookcover_third {
+  background-image: url(../../images/portfolioSlider/bookcover/third.png);
+}
+
+.bookcover_fourth {
+  background-image: url(../../images/portfolioSlider/bookcover/fourth.png);
+}
+
+.bookcover_fifth {
+  background-image: url(../../images/portfolioSlider/bookcover/fifth.png);
+}
+
+.bookcover_sixth {
+  background-image: url(../../images/portfolioSlider/bookcover/sixth.png);
+}
+
+/*stickerpack*/
+
+.stickerpacks {
+  height: 379px;
+  width: 267px;
+	background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stickerpacks_first {
+  background-image: url(../../images/portfolioSlider/stickerpack/first.png);
+}
+
+.stickerpacks_second {
+  background-image: url(../../images/portfolioSlider/stickerpack/second.png);
+}
+
+.stickerpacks_third {
+  background-image: url(../../images/portfolioSlider/stickerpack/third.png);
+}
+
+
+.stickerpacks_fourth {
+  background-image: url(../../images/portfolioSlider/stickerpack/fourth.png);
+}
+
+.stickerpacks_fifth {
+  background-image: url(../../images/portfolioSlider/stickerpack/fifth.png);
+}
+
+.stickerpacks_sixth {
+  background-image: url(../../images/portfolioSlider/stickerpack/sixth.png);
+}
+
+.stickerpacks_seventh {
+  background-image: url(../../images/portfolioSlider/stickerpack/seventh.png);
+}
+
+/*logos*/
+
+.logos {
+	height: 291px;
+  width: 291px;
+	background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logos_first {
+  background-image: url(../../images/portfolioSlider/logos/first.png);
+}
+
+.logos_second {
+  background-image: url(../../images/portfolioSlider/logos/second.png);
+}
+
+.logos_third {
+  background-image: url(../../images/portfolioSlider/logos/third.png);
+}
+
+
+/*media*/
+
+.media {
+	height: 291px;
+  width: 291px;
+	background-repeat: no-repeat;
+  background-position: center;
+}
+
+.media_first {
+  background-image: url(../../images/portfolioSlider/media/first.png);
+}
+
+.media_second {
+  background-image: url(../../images/portfolioSlider/media/second.png);
+}
+
+.media_third {
+  background-image: url(../../images/portfolioSlider/media/third.png);
+}
+
+/*tech*/
+
+.tech {
+	height: 291px;
+  width: 291px;
+	background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tech_first {
+  background-image: url(../../images/portfolioSlider/tech/first.png);
+}
+
+.tech_second {
+  background-image: url(../../images/portfolioSlider/tech/second.png);
+}
+
+.tech_third {
+  background-image: url(../../images/portfolioSlider/tech/third.png);
+}
+
+.tech_fourth {
+  background-image: url(../../images/portfolioSlider/tech/fourth.png);
+}
+
+.tech_fifth {
+  background-image: url(../../images/portfolioSlider/tech/fifth.png);
+}
+
+.tech_sixth {
+  background-image: url(../../images/portfolioSlider/tech/sixth.png);
+}
+
+.tech_seventh {
+  background-image: url(../../images/portfolioSlider/tech/seventh.png);
+}
+
+.tech_eighth {
+  background-image: url(../../images/portfolioSlider/tech/eighth.png);
+}
+
+.tech_ninth {
+  background-image: url(../../images/portfolioSlider/tech/ninth.png);
+}
+
+.tech_tenth {
+  background-image: url(../../images/portfolioSlider/tech/tenth.png);
+}
