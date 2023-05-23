@@ -1,0 +1,13 @@
+.decor {
+  display: flex;
+  gap: 265px;
+	justify-content: center;
+}
+
+.decor__line {
+	display: inline-block;
+	width: 454.15px;
+	height: 1px;
+	background-color: #967675;
+	opacity: 0.6;
+}

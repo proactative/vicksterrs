@@ -1,0 +1,41 @@
+.contact {
+  display: flex;
+  gap: 88px;
+	padding: 134px 0 168px 132px;
+}
+
+.contact__image {
+  width: 532px;
+  height: 532px;
+	background-image: url(../../images/ContactImage.png);
+	background-repeat: no-repeat;
+}
+
+.contact__info {
+	margin-top: 55px;
+}
+
+.contact__title {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-size: 102px;
+  line-height: 110px;
+  margin-bottom: 35px;
+  font-family: Playfair Display;
+  font-weight: 700;
+}
+
+.contact__text {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: justify;
+  color: #967675;
+  width: 532px;
+  box-sizing: border-box;
+  padding-left: 33px;
+}

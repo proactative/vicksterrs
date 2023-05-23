@@ -1,0 +1,41 @@
+.intro {
+  display: flex;
+  padding: 112px 130px;
+  gap: 23px;
+}
+
+.intro__image {
+  width: 689px;
+  height: 633.97px;
+  background-image: url('../../images/introImage.png');
+}
+
+.intro__info {
+  display: flex;
+  flex-direction: column;
+	gap: 44px;
+	color: #2C2D34;
+	margin-top: 60px;
+}
+
+.intro__title {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-size: 102px;
+  line-height: 110px; 
+  font-family: Playfair Display;
+  font-weight: 700;
+}
+
+.intro__text {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  width: 428px;
+	color: #967675;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: justify;
+  font-family: Montserrat;
+  font-weight: 300;
+}
