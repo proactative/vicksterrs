@@ -1,0 +1,31 @@
+/* Playfair Display */
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  src: url('PlayfairDisplay-Bold.woff') format('woff'), url('PlayfairDisplay-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 400;
+  src: url('PlayfairDisplay-Italic.woff') format('woff'), url('PlayfairDisplay-Italic.woff2') format('woff2');
+}
+
+/* Montserrat */
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: url('Montserrat-Medium.woff') format('woff'), url('Montserrat-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  src: url('Montserrat-Light.woff') format('woff'), url('Montserrat-Light.woff2') format('woff2');
+}
