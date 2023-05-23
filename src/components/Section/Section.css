@@ -1,0 +1,34 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.section__title {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 53px;
+  text-align: center;
+  color: #967675;
+	margin-top: 71px;
+}
+
+.section__text {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #967675;
+  width: 654px;
+	align-self: center;
+	margin-top: 29px;
+  margin-bottom: 57px;
+}
