@@ -1,8 +1,12 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 
 import './Header.css'
 
 function Header(props) {
+
+  const { t } = useTranslation();
+
   return (
     <header className="header">
       <div className="header__logo"/>
@@ -11,22 +15,22 @@ function Header(props) {
         <ul className="header__links">
           <li>
             <a className="header__link" href="#intro">
-              Home
+            {t("home")}
             </a>
           </li>
           <li>
             <a className="header__link" href="#about">
-              About
+            {t("about")}
             </a>
           </li>
           <li>
             <a className="header__link" href="#work">
-              Work
+            {t("work")}
             </a>
           </li>
           <li>
             <a className="header__link" href="#contact">
-              Contact
+            {t("contact")}
             </a>
           </li>
         </ul>

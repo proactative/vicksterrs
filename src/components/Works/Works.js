@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 
 import Section from '../Section/Section'
 import DecorLine from '../DecorLine/DecorLine'
@@ -6,15 +7,17 @@ import PortfolioSlider from '../PortfolioSlider/PorfolioSlider'
 import './Works.css'
 
 function Works() {
+  const { t } = useTranslation();
+  
   return (
     <section className="works" id="work">
       <DecorLine />
-      <h2 className="works__title">Work</h2>
+      <h2 className="works__title">{t("work-title")}</h2>
       <div className="works__container">
         
         <Section
-          title="Character design"
-          text="Creating unique and visually appealing characters for brands and merchandise."
+          title={t("section-title-1")}
+          text={t("section-text-1")}
         >
           <PortfolioSlider >
             <div className='character character_first' />
@@ -28,8 +31,8 @@ function Works() {
         </Section>
 
         <Section
-          title="Branding Illustration"
-          text="Illustrations to represent a brand's visual identity. They are used in packaging, menus, and websites to create a memorable brand image."
+          title={t("section-title-2")}
+          text={t("section-text-2")}
         >
           <PortfolioSlider >
             <div className='brand brand_first' />
@@ -40,8 +43,8 @@ function Works() {
         </Section>
 
         <Section
-          title="Book Cover Illustration"
-          text=" Designed to capture readers' attention, they convey the mood, themes, and key elements of the book, creating its visual representation."
+          title={t("section-title-3")}
+          text={t("section-text-3")}
         >
           <PortfolioSlider >
             <div className='bookcover bookcover_first' />
@@ -54,8 +57,8 @@ function Works() {
         </Section>
 
         <Section
-          title="Stickerpacks"
-          text="Stickerpacks consist of a collection of fun & expressive stickers or emojis. They allow individuals and brands to express emotions in a message."
+          title={t("section-title-4")}
+          text={t("section-text-4")}
         >
           <PortfolioSlider >
             <div className='stickerpacks stickerpacks_first' />
@@ -69,8 +72,8 @@ function Works() {
         </Section>
 
         <Section
-          title="Logos"
-          text="A logotype is a unique and visually distinctive symbol used to represent a brand or business. It serves as an instant visual identifier and plays a crucial role in brand recognition."
+          title={t("section-title-5")}
+          text={t("section-text-5")}
         >
           <PortfolioSlider >
             <div className='logos logos_first' />
@@ -80,8 +83,8 @@ function Works() {
         </Section>
 
         <Section
-          title="Illustrations for media"
-          text="Illustrations play a vital role in various forms of media, including newspapers, magazines, online articles, and social media posts. They bring visual interest, enhance storytelling, and capture the attention of the audience."
+          title={t("section-title-6")}
+          text={t("section-text-6")}
         >
           <PortfolioSlider >
             <div className='media media_first' />
@@ -91,8 +94,8 @@ function Works() {
         </Section>
 
         <Section
-          title="Technical illustrations"
-          text="Technical illustrations are used to visually explain mechanisms, systems, or processes related to vehicles. These illustrations require a high level of precision, accuracy, and attention to detail."
+          title={t("section-title-7")}
+          text={t("section-text-7")}
         >
           <PortfolioSlider >
             <div className='tech tech_first' />

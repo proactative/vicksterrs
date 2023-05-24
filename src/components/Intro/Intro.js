@@ -1,13 +1,16 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 
 import './Intro.css'
 
 function Intro() {
+  const { t } = useTranslation();
+
   return (
     <section className="intro" id="intro">
       <div className="intro__info" >
-        <h1 className="intro__title">Welcome!</h1>
-        <p className="intro__text">I'm an illustrator with a strong passion for visual storytelling and bringing ideas to life through vibrant and captivating illustrations.</p>
+        <h1 className="intro__title">{t("intro-title")}</h1>
+        <p className="intro__text">{t("intro-text")}</p>
       </div>
       <div className="intro__image" />
     </section>

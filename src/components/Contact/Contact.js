@@ -1,14 +1,17 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 
 import './Contact.css'
 
 function Contact() {
+  const { t } = useTranslation();
+
   return (
     <section className="contact" id="contact">
       <div className="contact__image" />
       <div className="contact__info">
-        <h2 className="contact__title">Contact me!</h2>
-        <p className="contact__text">If you're interested in collaborating or have any questions, don't hesitate to get in touch. Please send me an email with a link to your website, a project description, a timeline, and a budget. I look forward to hearing from you and bringing your vision to life through captivating illustrations!</p>
+        <h2 className="contact__title">{t("contact-title")}</h2>
+        <p className="contact__text">{t("contact-text")}</p>
       </div>
     </section>
   )

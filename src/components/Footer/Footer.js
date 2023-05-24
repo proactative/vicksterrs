@@ -61,10 +61,12 @@ function Footer() {
               <span className="footer__contact-icon footer__contact-icon_behance" />
             </a>
           </li>
-
         </ul>
 
-        <p className="footer__copyright">Copyright 2023 Vicksterrs</p>
+        <div className="footer__copyright">
+          <p className="footer__copyright_item">Copyright 2023 Vicksterrs</p>
+          <p className="footer__copyright_item">Website made by Proactative</p>
+        </div>
       </div>
     </footer>
   )
