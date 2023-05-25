@@ -1,7 +1,7 @@
 .contact {
   display: flex;
   gap: 88px;
-	padding: 134px 0 168px 132px;
+	padding: 134px 0 168px 85px;
 }
 
 .contact__image {
@@ -23,6 +23,7 @@
   margin-bottom: 35px;
   font-family: Playfair Display;
   font-weight: 700;
+  max-width: 565px;
 }
 
 .contact__text {

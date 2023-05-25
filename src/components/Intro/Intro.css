@@ -1,13 +1,14 @@
 .intro {
   display: flex;
-  padding: 112px 130px;
-  gap: 23px;
+  padding: 112px 100px 112px 130px;
+  gap: -20px;
 }
 
 .intro__image {
   width: 689px;
   height: 633.97px;
   background-image: url('../../images/introImage.png');
+  background-position: center;
 }
 
 .intro__info {
