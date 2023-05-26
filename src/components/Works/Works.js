@@ -90,6 +90,11 @@ function Works() {
             <div className='media media_first' />
             <div className='media media_second' />
             <div className='media media_third' />
+            <div className='media media_fourth' />
+            <div className='media media_fifth' />
+            <div className='media media_sixth' />
+            <div className='media media_seventh' />
+            <div className='media media_eighth' />
           </PortfolioSlider>
         </Section>
 
