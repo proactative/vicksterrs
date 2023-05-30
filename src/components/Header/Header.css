@@ -32,6 +32,7 @@
   margin-block-start: 0;
   margin-block-end: 0;
   padding-inline-start: 0;
+  margin-top: 10px;
 }
 
 .header__link {
@@ -42,7 +43,6 @@
   font-family: Montserrat;
   font-weight: 500;
   font-size: 16px;
-  line-height: 32px;
 }
 
 .header__link:hover {
@@ -52,6 +52,7 @@
 .header__lang-toggle {
   position: absolute;
   right: 0;
+  margin-top: 10px;
 }
 
 .header__lang-btn {
@@ -69,4 +70,68 @@
 
 .header__lang-btn:hover {
   border-bottom: 1px solid #23242c;
+}
+
+@media screen and (max-width: 1440px) {
+  .header {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header__links {
+    gap: 65px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    height: auto;
+    padding-right: 20px;
+  }
+
+  .header__nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header__lang-toggle {
+    position: static;
+    margin: 20px 0;
+  }
+
+  .header__link {
+    font-size: 15px;
+  }
+
+  .header__lang-btn {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header__links {
+    gap: 25px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .header {
+    height: auto;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .header__links {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .header__lang-toggle {
+    margin: 20px 0;
+    text-align: center;
+  }
 }
