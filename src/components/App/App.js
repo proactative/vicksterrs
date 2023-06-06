@@ -37,11 +37,11 @@ function App() {
       <Header setLanguageEN={setLanguageEN} setLanguageRU={setLanguageRU}/>
       <main className="app__main">
           {/* <Intro />  */}
-          {/* <About /> */}
-        {/*<Works />
-        <Contact />  */}
+          <About /> 
+        {/* <Works />*/}
+        {/* <Contact />   */}
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
    
   );
