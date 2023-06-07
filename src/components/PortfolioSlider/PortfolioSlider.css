@@ -160,6 +160,34 @@
   height: 367px;
 }
 
+@media screen and (max-width: 1150px) {
+  .bookcover {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .bookcover {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .bookcover {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .bookcover {
+    width: 210px;
+    height: 299px;
+  }
+}
+
 .bookcover_first {
   background-image: url(../../images/portfolioSlider/bookcover/first.png);
 }
@@ -192,6 +220,34 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+}
+
+@media screen and (max-width: 1150px) {
+  .stickerpacks {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .stickerpacks {
+    width: 150px;
+    /* height: 150px; */
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .stickerpacks {
+    width: 65px;
+    /* height: 100px; */
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .stickerpacks {
+    width: 210px;
+    height: 299px;
+  }
 }
 
 .stickerpacks_first {
