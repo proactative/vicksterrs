@@ -1,13 +1,13 @@
 .works__container {
-  
   padding-bottom: 206px;
-  padding-left: 134px;
-  padding-right: 134px;
+  padding-left: 9.5%;
+  padding-right: 9.5%;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 93px;
+  position: relative;
 }
 
 .works__title {
@@ -19,4 +19,22 @@
   font-weight: 700;
 	text-align: center;
   margin-top: 116px; 
+}
+
+@media screen and (max-width: 1000px) {
+  .works__title {
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .works__container {
+    padding: 30px 25px 0;
+  }
+  .works__title {
+    font-size: 48px;
+    line-height: 56px;
+    margin-top: 40px;
+  }
 }

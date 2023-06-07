@@ -11,7 +11,7 @@ function Works() {
   
   return (
     <section className="works" id="work">
-      <DecorLine />
+      {/* <DecorLine /> */}
       <h2 className="works__title">{t("work-title")}</h2>
       <div className="works__container">
         
@@ -42,7 +42,7 @@ function Works() {
           </PortfolioSlider>
         </Section>
 
-        <Section
+        {/* <Section
           title={t("section-title-3")}
           text={t("section-text-3")}
         >
@@ -69,7 +69,7 @@ function Works() {
             <div className='stickerpacks stickerpacks_sixth' />
             <div className='stickerpacks stickerpacks_seventh' />
           </PortfolioSlider>
-        </Section>
+        </Section> */}
 
         <Section
           title={t("section-title-5")}
@@ -117,10 +117,10 @@ function Works() {
             <div className='tech tech_ninth' />
             <div className='tech tech_tenth' />
           </PortfolioSlider>
-        </Section>
+        </Section> 
 
       </div>
-      <DecorLine />
+      {/* <DecorLine /> */}
     </section>
   )
 }

@@ -41,6 +41,35 @@
   height: 291px;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
+}
+
+@media screen and (max-width: 1150px) {
+  .character {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .character {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .character {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .character {
+    width: 210px;
+    height: 210px;
+  }
 }
 
 .character_first {
@@ -74,6 +103,35 @@
   height: 291px;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
+}
+
+@media screen and (max-width: 1150px) {
+  .brand {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .brand {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .brand {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .brand {
+    width: 210px;
+    height: 210px;
+  }
 }
 
 .brand_first {
@@ -97,6 +155,7 @@
 .bookcover {
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
   width: 258px;
   height: 367px;
 }
@@ -132,6 +191,7 @@
   width: 267px;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
 }
 
 .stickerpacks_first {
@@ -169,6 +229,35 @@
   width: 291px;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
+}
+
+@media screen and (max-width: 1150px) {
+  .logos {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .logos {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .logos {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .logos {
+    width: 210px;
+    height: 210px;
+  }
 }
 
 .logos_first {
@@ -190,6 +279,35 @@
   width: 291px;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
+}
+
+@media screen and (max-width: 1150px) {
+  .media {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .media {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .media {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .media {
+    width: 210px;
+    height: 210px;
+  }
 }
 
 .media_first {
@@ -231,6 +349,35 @@
   width: 291px;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
+}
+
+@media screen and (max-width: 1150px) {
+  .tech {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .tech {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .tech {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .tech {
+    width: 210px;
+    height: 210px;
+  }
 }
 
 .tech_first {
