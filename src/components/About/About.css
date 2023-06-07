@@ -1,6 +1,5 @@
 .about {
   display: flex;
-  /* gap: 76px; */
   gap: 5.5%;
   justify-content: center;
   padding: 70px 0px 157px;
@@ -9,8 +8,6 @@
 }
 
 .about__photo {
-  /* width: 450px; */
-  /* height: 580px; */
   width: 31.25%;
   margin-top: 48px;
   background-image: url('../../images/aboutPhoto.png');

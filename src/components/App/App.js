@@ -39,7 +39,7 @@ function App() {
           {/* <Intro />  */}
           <About /> 
         {/* <Works />*/}
-        {/* <Contact />   */}
+        <Contact />  
       </main>
       <Footer />
     </div>
