@@ -36,7 +36,7 @@ function App() {
     <div className="app">
       <Header setLanguageEN={setLanguageEN} setLanguageRU={setLanguageRU}/>
       <main className="app__main">
-          {/* <Intro />  */}
+        <Intro /> 
         <About /> 
         <Works />
         <Contact />  
