@@ -58,6 +58,10 @@
 
 
 @media screen and (max-width: 1000px) {
+  .contact {
+    padding: 134px 0 0px;
+  }
+
   .contact__title {
     font-size: 60px;
     line-height: 70px;
@@ -78,6 +82,7 @@
 
 @media screen and (max-width: 850px) {
   
+
   .contact__text {
     font-size: 20px;
     line-height: 23px;
