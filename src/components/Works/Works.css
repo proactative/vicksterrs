@@ -30,7 +30,7 @@
 
 @media screen and (max-width: 400px) {
   .works__container {
-    padding: 30px 25px 0;
+    padding: 30px 25px 100px;
   }
   .works__title {
     font-size: 48px;

@@ -1,13 +1,16 @@
 .decor {
   display: flex;
-  gap: 265px;
-	justify-content: center;
+  gap: 262px;
+  gap: 20%;
+  justify-content: center;
+  max-width: 1440px;
+  position: relative;
 }
 
 .decor__line {
-	display: inline-block;
-	width: 454.15px;
-	height: 1px;
-	background-color: #967675;
-	opacity: 0.6;
+  display: inline-block;
+  width: 31.54%;
+  height: 1px;
+  background-color: #967675;
+  opacity: 0.6;
 }

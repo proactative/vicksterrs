@@ -11,7 +11,7 @@ function Works() {
   
   return (
     <section className="works" id="work">
-      {/* <DecorLine /> */}
+      <DecorLine />
       <h2 className="works__title">{t("work-title")}</h2>
       <div className="works__container">
         
@@ -120,7 +120,7 @@ function Works() {
         </Section> 
 
       </div>
-      {/* <DecorLine /> */}
+      <DecorLine />
     </section>
   )
 }
